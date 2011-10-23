@@ -5,6 +5,8 @@ require 'minitest/autorun'
 
 class StringCalculator
   def add( numbers_string )
+    result.start_with? "//"
+
     result = 0
     elements = numbers_string.split(/,|\n/)
 
